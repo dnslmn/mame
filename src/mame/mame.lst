@@ -2435,7 +2435,6 @@ pcd4x                           // Siemens-Nixdorf PCD-4H and other 486 desktops
 pcd4nl                          // Siemens-Nixdorf PCD-4NL 486 subnotebook
 pcd4nd                          // Siemens-Nixdorf 486 notebook
 ct386sx                         //
-cxsxd                           //
 ec1842                          //
 ec1849                          //
 ev1806                          // Everex EV-1806
@@ -2468,7 +2467,6 @@ n8810m55                        // 1986 Nixdorf 8810 M55
 pc2386                          //
 qi600                           // 1988 Apricot Qi 600 (Neptune Motherboard
 qi900                           // 1990 Apricot Qi 900 (Scorpion Motherboard)
-sarcpc                          //
 t2000sx                         //
 walk386sx                       // Triumph-Adler Walkstation 386 SX
 walk386dx                       // Triumph-Adler Walkstation 386 DX
@@ -11251,7 +11249,6 @@ mnfb_c29                        //
 play_a24                        //
 poto_a29                        //
 poto_a32                        //
-poto_a31                        //
 robo_a30                        //
 robo_a34                        //
 simp_a20                        //
@@ -15167,7 +15164,6 @@ exospace                        // Elektronika
 gnw_bfight                      // Nintendo
 gnw_bjack                       // Nintendo
 gnw_boxing                      // Nintendo
-gnw_chef                        // Nintendo
 gnw_climber                     // Nintendo
 gnw_climbcs                     // Nintendo
 gnw_dkjr                        // Nintendo
@@ -15205,7 +15201,6 @@ kloneran                        // Konami
 knfl                            // Konami
 ktmnt                           // Konami
 ktopgun                         // Konami
-merrycook                       // Elektronika
 nummunch                        // VTech
 nupogodi                        // Elektronika
 taddams                         // Tiger
@@ -18048,11 +18043,6 @@ k2000                           // (c) 1990 Kurzweil Music Systems
 ksayakyu                        // ??? (c) 1985 Taito Corporation
 
 @source:ksys573.cpp
-bassang2                        // 1998 - Bass Angler 2 (GE865 VER. JAA)
-bassangl                        // 1998 - Bass Angler (GE765 VER. JAA)
-cr589fw                         // 1999 - CR-589 Firmware (700B04)
-cr589fwa                        // 1999 - CR-589 Firmware (700A04)
-darkhleg                        // 1998 - Dark Horse Legend (GX706 VER. JAA)
 ddr2m                           // 1999 - Dance Dance Revolution 2nd Mix (GN895 VER. JAA)
 ddr2mc                          // 1999 - Dance Dance Revolution 2nd Mix with beatmaniaIIDX CLUB VERSiON (GE896 VER. JAA)
 ddr2mc2                         // 1999 - Dance Dance Revolution 2nd Mix with beatmaniaIIDX substream CLUB VERSiON 2 (GE984 VER. JAA)
@@ -18073,6 +18063,8 @@ ddr5m                           // 2001 - Dance Dance Revolution 5th Mix (G*A27 
 ddra                            // 1999 - Dance Dance Revolution (GN845 VER. AAA)
 ddrbocd                         // 1999 - Dance Dance Revolution Best of Cool Dancers (GE892 VER. JAA)
 ddrextrm                        // 2002 - Dance Dance Revolution Extreme (G*C36 VER. JAA)
+ddrexpro						// 2018 - Dance Dance Revolution Extreme Pro (hack, v2)
+ddrexproc						// 2019 - Dance Dance Revolution Extreme Clarity (hack)
 ddrj                            // 1998 - Dance Dance Revolution - Internet Ranking Ver (GC845 VER. JBA)
 ddrja                           // 1998 - Dance Dance Revolution (GC845 VER. JAA)
 ddrjb                           // 1998 - Dance Dance Revolution (GC845 VER. JAB)
@@ -18107,17 +18099,6 @@ dsfdr                           // 2000 - Dancing Stage Featuring Disney's Rave 
 dsftkd                          // 1999 - Dancing Stage featuring TRUE KiSS DESTiNATiON (G*884 VER. JAA)
 dstage                          // 1999 - Dancing Stage - Internet Ranking Ver (GC845 VER. EBA)
 dstagea                         // 1999 - Dancing Stage (GN845 VER. EAA)
-fbait2bc                        // 1998 - Fisherman's Bait 2 - A Bass Challenge (GE865 VER. UAB)
-fbaitbc                         // 1998 - Fisherman's Bait - A Bass Challenge (GE765 VER. UAB)
-fbaitmc                         // 1999 - Fisherman's Bait - Marlin Challenge (GX889 VER. EA)
-fbaitmca                        // 1999 - Fisherman's Bait - Marlin Challenge (GX889 VER. AA)
-fbaitmcj                        // 1999 - Fisherman's Bait - Marlin Challenge (GX889 VER. JA)
-fbaitmcu                        // 1999 - Fisherman's Bait - Marlin Challenge (GX889 VER. UA)
-fghtmn                          // 2000 - Fighting Mania (QG918 VER. EAA)
-fghtmna                         // 2000 - Fighting Mania (QG918 VER. AAA)
-fghtmnk                         // 2000 - Fighting Mania (QG918 VER. KAA)
-fghtmnu                         // 2000 - Fighting Mania (QG918 VER. IAA)
-gchgchmp                        // 1999 - Gachaga Champ (GE877 VER. JAB)
 gtfrk10m                        // 2003 - Guitar Freaks 10th Mix (G*D10 VER. JAB)
 gtfrk10ma                       // 2003 - Guitar Freaks 10th Mix (G*D10 VER. JAA)
 gtfrk10mb                       // 2003 - Guitar Freaks 10th Mix eAmusement (G*D10 VER. JBA)
@@ -18137,20 +18118,6 @@ gtrfrks                         // 1999 - Guitar Freaks (GQ886 VER. EAC)
 gtrfrksa                        // 1999 - Guitar Freaks (GQ886 VER. AAC)
 gtrfrksj                        // 1999 - Guitar Freaks (GQ886 VER. JAC)
 gtrfrksu                        // 1999 - Guitar Freaks (GQ886 VER. UAC)
-gunmania                        // 2000 - GunMania (GL906 VER. JAA)
-strgchmp                        // 1997 - Steering Champ (GQ710 VER. UAA)
-hndlchmp                        // 1997 - Handle Champ (GQ710 VER. JAB)
-hypbbc2p                        // 1999 - Hyper Bishi Bashi Champ - 2 Player (GX908 1999/08/24 VER. JAA)
-hypbbc2pk                       // 1999 - Hyper Bishi Bashi Champ - 2 Player (GX908 1999/08/24 VER. KAA)
-hyperbbc                        // 1998 - Hyper Bishi Bashi (GQ876 VER. EAA)
-hyperbbca                       // 1998 - Hyper Bishi Bashi (GQ876 VER. AAA)
-hyperbbck                       // 1998 - Hyper Bishi Bashi (GE876 VER. KAA)
-jppyex98                        // 1998 - Jikkyou Powerful Pro Yakyuu EX '98 (GC811 VER. JAA)
-konam80a                        // 1998 - Konami 80's AC Special (GC826 VER. AAA)
-konam80j                        // 1998 - Konami 80's Gallery (GC826 VER. JAA)
-konam80k                        // 1998 - Konami 80's AC Special (GC826 VER. KAA)
-konam80s                        // 1998 - Konami 80's AC Special (GC826 VER. EAA)
-konam80u                        // 1998 - Konami 80's AC Special (GC826 VER. UAA)
 mamboagg                        // 2001 - Mambo A Go-Go (GQA40 VER. JAB)
 mamboagga                       // 2001 - Mambo A Go-Go e-Amusement (GQA40 VER. JRB)
 mrtlbeat                        // 2002 - Martial Beat (Martial Beat (G*B47 VER. JBA)
@@ -18158,12 +18125,6 @@ pcnfrk2m                        // 2000 - Percussion Freaks 2nd Mix (GE912 VER. 
 pcnfrk3m                        // 2000 - Percussion Freaks 3rd Mix (G*A23 VER. KAA)
 pcnfrk4m                        // 2000 - Percussion Freaks 4rd Mix (G*A25 VER. AAA)
 pcnfrk5m                        // 2001 - Percussion Freaks 5th Mix (G*B05 VER. KAA)
-pnchmn                          // 2000 - Punch Mania: Hokuto No Ken (GQ918 VER. JAB)
-pnchmn2                         // 2000 - Punch Mania 2: Hokuto No Ken (GQA09 JAA)
-pnchmna                         // 2000 - Punch Mania: Hokuto No Ken (GQ918 VER. JAB, ALT CD)
-powyakex                        // 1998 - Jikkyou Powerful Pro Yakyuu EX (GX802 VER. JAB)
-salarymc                        // 2000 - Salary Man Champ (G*A18 VER. JAA)
-stepchmp                        // 1999 - Step Champ (GE930 VER. JA)
 sys573                          //
 
 @source:kungfur.cpp
@@ -31154,7 +31115,6 @@ mspacmanbg2                     // bootleg
 mspacmanbgd                     // bootleg
 mspacmanblt                     // bootleg
 mspacmanbhe                     // bootleg
-mspacmanbi                      // bootleg
 mspacmancr                      // bootleg on Crush Roller board
 mspacmat                        // hack
 mspacmbe                        // bootleg
@@ -31339,7 +31299,6 @@ mpc1600                         // Columbia Data Products MPC 1600
 mc1702                          //
 mk88                            //
 ncrpc4i                         // NCR PC4i
-nixpc01							// Nixdorf 8810/25 - PC01
 olivm15                         // Olivetti M15
 olytext30                       // AEG Olympia Olytext 30
 pc7000                          // 1985 Sharp PC-7000

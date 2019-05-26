@@ -103,6 +103,7 @@
 # QT_HOME = /usr/lib64/qt48/
 
 # SOURCES = src/mame/drivers/asteroid.cpp,src/mame/audio/llander.cpp
+SOURCES = src/mame/drivers/ksys573.cpp
 
 # FORCE_VERSION_COMPILE = 1
 

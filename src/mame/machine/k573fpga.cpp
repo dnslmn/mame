@@ -87,21 +87,33 @@ void k573fpga_device::device_add_mconfig(machine_config &config)
 }
 
 uint32_t k573fpga_device::get_mp3_playback() {
-    if (m_samples->get_position(0) == 0 && decrypt_finished) {
-        // The game is still requesting position updates after the song has ended.
-        // This happens in some games like DDR 4th Mix Plus where it uses
-        // the position in song for actual game engine timings.
-        // The counter will properly end when the game signals to the FPGA to stop playback.
-        last_position_update += position_diff;
-    } else {
-        if (m_samples->get_position(0) - last_position_update > 0) {
-            position_diff = m_samples->get_position(0) - last_position_update;
-        }
+if (mp3_start_adr == 0) {
+if (m_samples->get_position(0) == 0 && decrypt_finished) {
+// The game is still requesting position updates after the song has ended.
+// This happens in some games like DDR 4th Mix Plus where it uses
+// the position in song for actual game engine timings.
+// The counter will properly end when the game signals to the FPGA to stop playback.
+last_position_update += position_diff;
+} else {
+position_diff = m_samples->get_position(0) - last_position_update;
+last_position_update = m_samples->get_position(0);
+}
 
-        last_position_update = m_samples->get_position(0);
-    }
 
-    return last_position_update;
+// adjust audio sync to game
+last_position_update = m_samples->get_position(0);
+
+const int samples_per_frame = 735;
+const int lag_frames = 6;
+int ret = (int)last_position_update - (samples_per_frame * lag_frames);
+
+if(ret >= 0)
+return ret;
+else
+return 0;
+}
+
+return 0;
 }
 
 uint16_t k573fpga_device::i2c_read()
